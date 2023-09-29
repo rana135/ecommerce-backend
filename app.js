@@ -24,7 +24,7 @@ app.use('/api/v1/', authRoute)
 
 
 app.get("/", (req, res) => {
-  res.send("Route is working! YaY!");
+  res.send("Route is working! YaY YaY!");
 });
 
 module.exports = app;
